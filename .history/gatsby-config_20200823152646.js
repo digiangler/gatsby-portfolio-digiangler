@@ -9,9 +9,10 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Digi-Angler - Gatsby Portfolio`,
+    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
   },
-  plugins: [{
+  plugins: [
+    {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
       options: {},
@@ -32,7 +33,8 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
-        icons: [{
+        icons: [
+          {
             src: `/android-chrome-192x192.png`,
             sizes: `192x192`,
             type: `image/png`,
